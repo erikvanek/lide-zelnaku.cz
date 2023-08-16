@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'SuiseeBPIntl';
+    src: url('../fonts/SuisseBPIntl-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
+}
+
+@keyframes changeBg {
+    0%, 100% {
+        background-image: url('../../img/foto/salaty.jpg');
+    }
+    33% {
+        background-image: url('../../img/foto/salaty2.jpg');
+    }
+    66% {
+        background-image: url('../../img/foto/bylinky.jpg');
+    }
+}
+
+body {
+    animation: changeBg 30s infinite alternate;
+    color: whitesmoke;
+    font-family: 'Roboto';
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-shadow: 0.125rem 0.125rem 0.125rem black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 3.5rem;
+}
+
+#main {
+    margin: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-top: -2rem;
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: 6rem;
+    }
+
+    #main {
+        max-width: 60ch;
+        font-size: 1.75rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    #main {
+        max-width: 60ch;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+  }

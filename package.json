@@ -1,0 +1,15 @@
+{
+  "name": "lide-zelnaku.cz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lidezelnaku/lide-zelnaku.cz.git",
+  "author": "erikvanek <vanek.erik@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+	"start": "eleventy --serve"
+},  
+"dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
